@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828744909007",
+    "firebase_url": "https://vaksin-kasehat-9a401.firebaseio.com",
+    "project_id": "vaksin-kasehat-9a401",
+    "storage_bucket": "vaksin-kasehat-9a401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828744909007:android:95beb6737bfa2d8e0bb7ba",
+        "android_client_info": {
+          "package_name": "com.kasehat.vaksin_kasehat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828744909007-pipisvqi2479ita13rkf5n0k248jhvt5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kasehat.vaksin_kasehat",
+            "certificate_hash": "ea6c327293ac1bc50bbe087e54b6f3598b6fee24"
+          }
+        },
+        {
+          "client_id": "828744909007-vupu0s8op3n3k7hjepl8c290clgfc9km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwX69g5iBbFPE1rXvGMSLEuqFhZWgsyHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828744909007-vupu0s8op3n3k7hjepl8c290clgfc9km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
