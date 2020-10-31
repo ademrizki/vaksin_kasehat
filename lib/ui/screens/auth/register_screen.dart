@@ -24,6 +24,16 @@ class RegisterScreen extends StatelessWidget {
           physics: BouncingScrollPhysics(),
           children: <Widget>[
             TextFormField(
+              controller: _provider.idController,
+              validator: (String value) =>
+                  value.length < 8 ? 'Please, fill ID properly' : null,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: 'Name',
+              ),
+            ),
+            Space(height: 10),
+            TextFormField(
               controller: _provider.nameController,
               validator: (String value) =>
                   value.length < 3 ? 'Please, fill name properly' : null,
@@ -35,6 +45,36 @@ class RegisterScreen extends StatelessWidget {
             Space(height: 10),
             TextFormField(
               controller: _provider.addressController,
+              validator: (String value) =>
+                  value.length < 3 ? 'Please, fill address properly' : null,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: 'Address',
+              ),
+            ),
+            Space(height: 10),
+            TextFormField(
+              controller: _provider.birthPlaceController,
+              validator: (String value) =>
+                  value.length < 3 ? 'Please, fill birth place properly' : null,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: 'Name',
+              ),
+            ),
+            Space(height: 10),
+            TextFormField(
+              controller: _provider.sexTypeController,
+              validator: (String value) =>
+                  value.length < 3 ? 'Please, fill address properly' : null,
+              textInputAction: TextInputAction.next,
+              decoration: InputDecoration(
+                labelText: 'Address',
+              ),
+            ),
+            Space(height: 10),
+            TextFormField(
+              controller: _provider.provinceController,
               validator: (String value) =>
                   value.length < 3 ? 'Please, fill address properly' : null,
               textInputAction: TextInputAction.next,

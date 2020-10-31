@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:progress_dialog/progress_dialog.dart';
-import 'package:vaksin_kasehat/services/firebase_authentication/phone_authentication_services.dart';
+import 'package:vaksin_kasehat/services/firebase_services/phone_authentication_services.dart';
 
 class PhoneAuthenticationProvider extends ChangeNotifier
     with FirebasePhoneAuthenticationServices {
